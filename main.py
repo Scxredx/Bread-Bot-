@@ -354,4 +354,4 @@ async def dog(ctx,description="Sends a photo of a Dog"):
    embed.set_footer(text="BreadBot",icon_url='https://cdn.discordapp.com/avatars/816932049284890655/d80e9c79176998c8d22af2d59d59084e.png?size=1024')
    await ctx.send(embed=embed)
 
-bot.run("ODY5NjE3MDEyNTAwOTkyMDAw.YQAz9A.dK7-xGA-AojuXw1W5uzFc_tnusc")
+bot.run("TOKEN")
