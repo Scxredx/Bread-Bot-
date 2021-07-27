@@ -237,7 +237,7 @@ async def coinflip(ctx):
 @bot.command()
 async def serverinfo(ctx):
         guild = ctx.guild
-        embed = discord.Embed(title=f'{guild} Info', description="Coded by Nenz",
+        embed = discord.Embed(title=f'{guild} Info', description="Coded by Scxred#8967",
                           timestamp=ctx.message.created_at, color=discord.Color.red())
         embed.set_thumbnail(url=guild.icon_url)
         embed.add_field(name="Number of channels:", value=len(guild.channels))
